@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/ComparatorProcessor.h</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/Distribution.h</itemPath>
+      <itemPath>FileTreeParser.h</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/Image.h</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/ImageData.h</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/ImageReaderProcessor.h</itemPath>
+      <itemPath>List.h</itemPath>
+      <itemPath>MyString.h</itemPath>
+      <itemPath>Processor.h</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/Semaphore.h</itemPath>
+      <itemPath>Thread.h</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/stb_image.h</itemPath>
+      <itemPath>std.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/ComparatorProcessor.c</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/Distribution.c</itemPath>
+      <itemPath>FileTreeParser.c</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/Image.c</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/ImageData.c</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/ImageReaderProcessor.c</itemPath>
+      <itemPath>List.c</itemPath>
+      <itemPath>MyString.c</itemPath>
+      <itemPath>Processor.c</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/Semaphore.c</itemPath>
+      <itemPath>Thread.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/stb_image.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f5"
+                     displayName="FileTreeParserTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/tests/filetreeparsertest.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f6"
+                     displayName="ImgReadTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/tests/imgreadtest.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="ListTest" projectFiles="true" kind="TEST">
+        <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/tests/listtest.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2"
+                     displayName="ProcessorTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/tests/processortest.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f4"
+                     displayName="StringTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/tests/stringtest.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1"
+                     displayName="SucessTest"
+                     projectFiles="true"
+                     kind="TEST">
+        <itemPath>C:/Users/Tamaran/Documents/NetBeansProjects/DuplicateScanner/tests/SucessTest.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <commandlineTool>g++.exe</commandlineTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibFileItem>C:/opencv/build/x86/mingw/bin/libopencv_core243.dll</linkerLibFileItem>
+            <linkerLibFileItem>C:/opencv/build/x86/mingw/bin/libopencv_highgui243.dll</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f3">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f3</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f4">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f4</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f5">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f5</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f6">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f6</output>
+        </linkerTool>
+      </folder>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
